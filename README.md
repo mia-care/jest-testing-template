@@ -19,13 +19,13 @@ Tests should follow a structured hierarchy:
 
 ```
 repository-root/
-├── test/
-│   ├── category1/
-│   │   ├── test1.spec.js
-│   │   └── test2.spec.js
-│   ├── category2/
-│   │   ├── anotherTest.spec.js
-│   │   └── exampleTest.spec.js
+
+├── test-suite-1/
+│   ├── test1.test.js
+│   └── test2.test.js
+├── test-suite-2/
+│   ├── anotherTest.test.js
+│   └── exampleTest.test.js
 ├── .env
 ├── package.json
 ├── run.sh
@@ -68,7 +68,7 @@ repository-root/
 
    Example of a test file:
    ```javascript
-   // test/category1/exampleTest.spec.js
+   // test/category1/exampleTest.test.js
    describe('Example Test', () => {
        it('should pass this test', () => {
            expect(1 + 1).toBe(2);
