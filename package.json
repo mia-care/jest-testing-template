@@ -1,0 +1,23 @@
+{
+    "name": "mia_template_service_name_placeholder",
+    "version": "1.0.0",
+    "description": "%CUSTOM_PLUGIN_SERVICE_DESCRIPTION%",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --config jest.config.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^29.5.13",
+        "@types/supertest": "^6.0.2",
+        "jest": "^29.7.0",
+        "jest-junit": "^16.0.0",
+        "supertest": "^7.0.0"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "mongodb": "^6.9.0"
+    }
+}
